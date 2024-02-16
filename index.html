@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BOOKBUSES</title>
+  </head>
+<body>
+    <style>
+          body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+          }
+          nav {
+            background-color: #333;
+            color: #ffffff;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+          }
+          nav a {
+            color: #fff;
+            text-decoration: none;
+            padding:10px;
+          }
+          nav a:hover {
+            background-color: #555;
+          }
+          .logo {
+            font-size: 30px;
+            font-weight: bold;
+          }
+    
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            text-align: center;
+            color: #007bff;
+            margin-bottom: 20px;
+        }
+
+        .booking-box {
+            background-color: #f9f9f9;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 20px;
+        }
+
+        label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        input[type="text"],
+        input[type="date"],
+        input[type="email"],
+        select {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+
+        button {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            width: 100%;
+            font-size: 16px;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+        .booking-box {
+            
+            width: 700px;
+
+        }
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 20px auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            grid-gap: 20px;
+            padding: 20px;
+        }
+
+        .box {
+            background-color: #fff;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            overflow: hidden;
+        }
+
+        .box img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .box-content {
+            padding: 10px;
+        }
+
+        .box-content h2 {
+            margin: 0;
+            font-size: 18px;
+            color: #333;
+        }
+
+        .box-content p {
+            margin: 5px 0;
+            color: #666;
+        }
+
+        @media screen and (max-width: 768px) {
+            .container {
+                grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            }
+        }
+
+
+        </style>
+        <nav>
+          <div class="log0">
+            <img src="bookbuseslogo.png" alt="" height="110" width="120" />
+          </div>
+          <div>
+            <a href="index.html">HOME</a>
+            <a href="aboutus.html">ABOUT US</a>
+            <a href="services.html">SERVICES</a>
+            <a href="offers.html">OFFERS</a>
+            <a href="contactus.html">CONTACT US</a>
+            <a href="mybookings.html">MY BOOKINGS</a>
+            <a href="login.html">LOGIN</a>
+          </div>
+        </nav>
+        <div>
+          <!-- Your homepage content goes here -->
+          <h1>BOOK YOUR JOURNEY NOW WITH THE WORLD'S LARGEST BUS PLATFORM</h1>
+
+       <center><div class="booking-box" >
+            <form>
+                <label for="source">Source:</label>
+                <input type="text" id="source" name="source" required>
+                <label for="destination">Destination:</label>
+                <input type="text" id="destination" name="destination" required>
+                <label for="date">Date:</label>
+                <input type="date" id="date" name="date" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <button type="submit">Book Now</button>
+            </form></center> 
+
+            <H1>LIST OF TRAVELL PARTENERS</H1>
+
+            <div class="container">
+                <div class="box">
+                    <img src="BUS1.jpg" alt="Image 1">
+                    <div class="box-content">
+                        <h2>SAHARA TRAVELS</h2>
+                        <p>Offering luxury bus services across multiple cities with comfortable seating and on-time departures.</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="BUS2.jpg" alt="Image 2">
+                    <div class="box-content">
+                        <h2>A.G.HOLIDAYS</h2>
+                        <p> Providing premium coach services with spacious interiors, Wi-Fi, and onboard entertainment options.</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="BUS3.jpg" alt="Image 2">
+                    <div class="box-content">
+                        <h2>AALIYA TRAVELS</h2>
+                        <p>Specializing in scenic bus tours to popular tourist destinations, offering guided trips and informative commentary.</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="BUS4.jpg" alt="Image 2">
+                    <div class="box-content">
+                        <h2>A.K.TRAVELS</h2>
+                        <p>Known for their reliable and affordable intercity bus routes, serving both urban and rural areas.
+                        </p>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="bus5.jpg" alt="Image 2">
+                    <div class="box-content">
+                        <h2>ABHI TRAVELS</h2>
+                        <p>Offering express bus services for commuters, emphasizing safety, punctuality, and customer satisfaction.
+                        </p>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="bus6.jpg" alt="Image 2">
+                    <div class="box-content">
+                        <h2>JHARKHAND TRAVELS</h2>
+                        <p>Eco-friendly bus company committed to reducing carbon footprint by using clean energy buses and promoting sustainable travel practices.</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="bus7.jpg" alt="Image 2">
+                    <div class="box-content">
+                        <h2>BANGLORE TRAVELS</h2>
+                        <p>Catering to group travel needs with charter bus services for events, corporate outings, and school trips.</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="bus8.jpg" alt="Image 2">
+                    <div class="box-content">
+                        <h2>HARYANA TRAVELS</h2>
+                        <p>Catering to group travel needs with charter bus services for events, corporate outings, and school trips.</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="bus9.jpg" alt="Image 2">
+                    <div class="box-content">
+                        <h2>ANURAG TRAVELS</h2>
+                        <p>Specializing in long-distance bus travel with overnight journeys, sleeper coaches, and premium amenities for a comfortable ride.</p>
+                    </div>
+                </div>
+</body>
+</html>
